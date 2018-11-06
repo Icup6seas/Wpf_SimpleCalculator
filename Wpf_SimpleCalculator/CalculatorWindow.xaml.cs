@@ -18,9 +18,9 @@ namespace Wpf_SimpleCalculator
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CalculatorWindow : Window
     {
-        public MainWindow()
+        public CalculatorWindow()
         {
             InitializeComponent();
         }
