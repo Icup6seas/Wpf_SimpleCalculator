@@ -68,7 +68,7 @@ namespace Wpf_SimpleCalculator
         }
 
         //
-        //Reads whats in the text box
+        //Reads whats in the text box, validation
         private void input(string a)
         {
             if (txtBox_Main.Text == "0")

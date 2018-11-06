@@ -7,22 +7,22 @@
         mc:Ignorable="d"
         Title="Simple Calculator" Height="600" Width="526.4">
     <Grid Margin="0,0,4,35.6">
-        <TextBox Name="txtBox_Main" HorizontalAlignment="Left" Height="65" Margin="26,55,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="466" TextChanged="TextBox_TextChanged"/>
-        <Button Name="btn_Num1" Content="1" HorizontalAlignment="Left" Margin="26,171,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
-        <Button Name="btn_Num2" Content="2" HorizontalAlignment="Left" Margin="129,171,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
-        <Button Name="btn_Num3" Content="3" HorizontalAlignment="Left" Margin="234,171,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
-        <Button Name="btn_Num4" Content="4" HorizontalAlignment="Left" Margin="26,259,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
-        <Button Name="btn_Num5" Content="5" HorizontalAlignment="Left" Margin="129,259,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
-        <Button Name="btn_Num6" Content="6" HorizontalAlignment="Left" Margin="234,259,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
-        <Button Name="btn_Num7" Content="7" HorizontalAlignment="Left" Margin="26,345,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
-        <Button Name="btn_Num8" Content="8" HorizontalAlignment="Left" Margin="129,345,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
-        <Button Name="btn_Num9" Content="9" HorizontalAlignment="Left" Margin="234,345,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
-        <Button Name="btn_Num0" Content="0" HorizontalAlignment="Left" Margin="129,436,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
-        <Button Name="btn_Clear" Content="Clear" HorizontalAlignment="Left" Margin="417,171,0,0" VerticalAlignment="Top" Width="75" Height="33" Click="btn_Clear_Click"/>
-        <Button Name="btn_Mult" Content="*" HorizontalAlignment="Left" Margin="417,232,0,0" VerticalAlignment="Top" Width="75" Height="45" Click="btn_Operator_Click"/>
-        <Button Name="btn_Sub" Content="-" HorizontalAlignment="Left" Margin="417,296,0,0" VerticalAlignment="Top" Width="75" Height="45" Click="btn_Operator_Click"/>
-        <Button Content="+" HorizontalAlignment="Left" Margin="417,372,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Operator_Click"/>
-        <Button Name="btn_Equal" Content="=" HorizontalAlignment="Left" Margin="346,463,0,0" VerticalAlignment="Top" Width="146" Height="64"/>
+        <TextBox Name="txtBox_Main" HorizontalAlignment="Left" Height="65" Margin="26,55,0,0" TextWrapping="Wrap" Text="0" FontSize="45" Background="BurlyWood" FontStyle="Italic" VerticalAlignment="Top" Width="466" TextChanged="TextBox_TextChanged"/>
+        <Button Name="btn_Num1" Content="1" HorizontalAlignment="Left" FontSize="30" Margin="26,171,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
+        <Button Name="btn_Num2" Content="2" HorizontalAlignment="Left" FontSize="30" Margin="129,171,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
+        <Button Name="btn_Num3" Content="3" HorizontalAlignment="Left" FontSize="30" Margin="234,171,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
+        <Button Name="btn_Num4" Content="4" HorizontalAlignment="Left" FontSize="30" Margin="26,259,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
+        <Button Name="btn_Num5" Content="5" HorizontalAlignment="Left" FontSize="30" Margin="129,259,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
+        <Button Name="btn_Num6" Content="6" HorizontalAlignment="Left" FontSize="30" Margin="234,259,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
+        <Button Name="btn_Num7" Content="7" HorizontalAlignment="Left" FontSize="30" Margin="26,345,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
+        <Button Name="btn_Num8" Content="8" HorizontalAlignment="Left" FontSize="30" Margin="129,345,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
+        <Button Name="btn_Num9" Content="9" HorizontalAlignment="Left" FontSize="30" Margin="234,345,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
+        <Button Name="btn_Num0" Content="0" HorizontalAlignment="Left" FontSize="30" Margin="129,436,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Number_Click"/>
+        <Button Name="btn_Clear" Content="Clear" HorizontalAlignment="Left" FontSize="20" Background="Red" Margin="417,171,0,0" VerticalAlignment="Top" Width="75" Height="33" Click="btn_Clear_Click"/>
+        <Button Name="btn_Mult" Content="*" HorizontalAlignment="Left" FontSize="30" Background ="AliceBlue" Margin="417,232,0,0" VerticalAlignment="Top" Width="75" Height="45" Click="btn_Operator_Click"/>
+        <Button Name="btn_Sub" Content="-" HorizontalAlignment="Left" FontSize="30" Background ="AliceBlue" Margin="417,296,0,0" VerticalAlignment="Top" Width="75" Height="45" Click="btn_Operator_Click"/>
+        <Button Content="+" HorizontalAlignment="Left" FontSize="30" Background ="AliceBlue" Margin="417,372,0,0" VerticalAlignment="Top" Width="75" Height="64" Click="btn_Operator_Click"/>
+        <Button Name="btn_Equal" Content="=" HorizontalAlignment="Left" FontSize="40" Background="GreenYellow" Margin="346,463,0,0" VerticalAlignment="Top" Width="146" Height="64" Click="btn_Equal_Click"/>
 
     </Grid>
 </Window>
